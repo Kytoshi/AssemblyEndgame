@@ -1,7 +1,7 @@
 import { clsx } from "clsx";
 import type { JSX } from "react";
 
-export type KeyboardProps = {
+type KeyboardProps = {
   alphabet: string;
   guessedLetters: string[];
   currentWord: string;

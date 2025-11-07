@@ -1,7 +1,7 @@
 import { clsx } from "clsx";
 import type { JSX } from "react";
 
-export type WordLettersProps = {
+type WordLettersProps = {
   currentWord: string;
   guessedLetters: string[];
   isGameLost: boolean;

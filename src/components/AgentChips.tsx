@@ -2,7 +2,7 @@ import { clsx } from "clsx";
 import type { JSX } from "react";
 import type { Agent } from "../agents";
 
-export type AgentChipsProps = {
+type AgentChipsProps = {
   agents: Agent[];
   wrongGuessCount: number;
 };
