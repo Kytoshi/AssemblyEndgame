@@ -1,0 +1,46 @@
+{
+  "hash": "4cd41553",
+  "configHash": "9fd9d9b1",
+  "lockfileHash": "0f0acb65",
+  "browserHash": "231539a0",
+  "optimized": {
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "8770c909",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "ad6511f6",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "748e6867",
+      "needsInterop": true
+    },
+    "clsx": {
+      "src": "../../node_modules/clsx/dist/clsx.mjs",
+      "file": "clsx.js",
+      "fileHash": "e2b5dfda",
+      "needsInterop": false
+    },
+    "react-confetti": {
+      "src": "../../node_modules/react-confetti/dist/react-confetti.mjs",
+      "file": "react-confetti.js",
+      "fileHash": "33d074a7",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-IGXLOIK6": {
+      "file": "chunk-IGXLOIK6.js"
+    },
+    "chunk-5WRI5ZAA": {
+      "file": "chunk-5WRI5ZAA.js"
+    }
+  }
+}
