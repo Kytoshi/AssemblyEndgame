@@ -5,7 +5,7 @@ import { getRandomWord } from "./utils";
 import ConfettiContainer from "./components/ConfettiContainer";
 import Header from "./components/Header";
 import GameStatus from "./components/GameStatus";
-import LanguageChips from "./components/AgentChips";
+import AgentChips from "./components/AgentChips";
 import WordLetters from "./components/WordLetters";
 import AriaLiveStatus from "./components/AriaLiveStatus";
 import Keyboard from "./components/Keyboard";
@@ -59,7 +59,7 @@ export default function AssemblyEndgame() {
         wrongGuessCount={wrongGuessCount}
       />
 
-      <LanguageChips agents={agents} wrongGuessCount={wrongGuessCount} />
+      <AgentChips agents={agents} wrongGuessCount={wrongGuessCount} />
 
       <WordLetters
         currentWord={currentWord}
